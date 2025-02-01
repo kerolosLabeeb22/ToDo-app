@@ -7,14 +7,14 @@ import androidx.room.PrimaryKey
 import java.util.Date
 
 
-@Entity
+@Entity(tableName = "tasks")
 data class Task(
     @PrimaryKey(autoGenerate = true)
-    val id:Int=0,
-    var title:String,
-    var description:String? = null,
-    var date:Long,
-    var time:Long,
-    var isDone :Boolean = false,
-
+    var id: Int?,
+    @ColumnInfo(name = "name")
+    val title: String?=null,
+    @Ignore
+    val description: String?=null,
+    val date: Date?=null,
+    var isDone: Boolean? = false
 )
