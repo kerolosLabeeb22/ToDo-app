@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Todo app</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="tasks">tasks</string>
+    <string name="settings">settings</string>
+    <string name="add_new_task">add new task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="select_date">select date</string>
+    <string name="select_time">select time</string>
+
+    <string name="title_required" translatable="false">Title Required</string>
+    <string name="required_field" translatable="false">Required Field</string>
+    <string name="language">language</string>
+    <string name="english">English</string>
+    <string name="mode">mode</string>
+    <string name="light">light</string>
 </resources>
