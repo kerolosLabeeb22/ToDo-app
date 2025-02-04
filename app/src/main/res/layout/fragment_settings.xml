@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.SettingFragment">
+    tools:context=".fragments.SettingsFragment">
 
 
     <ImageView
         android:id="@+id/top_view"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:src="@color/blue"
         app:layout_constraintTop_toTopOf="parent" />
 

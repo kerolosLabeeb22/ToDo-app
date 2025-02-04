@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">@color/navy</color>
+    <color name="onPrimary">@color/blue</color>
+    <color name="secondary">@color/blue</color>
+    <color name="onSecondary">@color/blue</color>
+    <color name="background">@color/black_blue_light</color>
+    <color name="bottom_nav_bg_color">@color/navy</color>
+    <color name="onBackground">@color/black</color>
+</resources>

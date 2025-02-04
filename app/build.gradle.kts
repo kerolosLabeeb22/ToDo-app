@@ -65,7 +65,8 @@ dependencies {
 
     implementation(libs.swipelayout)
 
-    implementation (libs.material.calendarview)
+    implementation(libs.calender.view)
+
 
 
 

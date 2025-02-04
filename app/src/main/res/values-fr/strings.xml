@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Todo app</string>
+    <string name="to_do_list">"Liste des tâches"</string>
+    <string name="tasks">Tâches</string>
+    <string name="settings">Paramètres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_new_task">Ajouter une nouvelle tâche</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Titre</string>
+    <string name="description">Description</string>
+    <string name="select_date">Sélectionner la date</string>
+
+
+    <string name="language">Langue</string>
+    <string name="english">Anglais</string>
+    <string name="mode">Mode</string>
+    <string name="light">Clair</string>
+    <string name="select_time">Sélectionner l\'heure</string>
+
+</resources>

@@ -10,11 +10,15 @@ import java.util.Date
 @Entity(tableName = "tasks")
 data class Task(
     @PrimaryKey(autoGenerate = true)
-    var id: Int?,
-    @ColumnInfo(name = "name")
-    val title: String?=null,
+    var id: Int = 0, //
+    val title: String? = null,
+    val date: Date? = null,
+    var isDone: Boolean? = false,
+) {
     @Ignore
-    val description: String?=null,
-    val date: Date?=null,
-    var isDone: Boolean? = false
-)
+    var description: String? = null
+}
+val task = Task(title = "Play Basketball", date = Date(), isDone = true)
+
+
+

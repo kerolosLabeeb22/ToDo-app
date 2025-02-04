@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item
-    android:id="@+id/navigation_task"
-    android:icon="@drawable/list_icon"
+    android:id="@+id/navigation_task_list"
+    android:icon="@drawable/list_icn"
     android:title="@string/tasks"
     />
 

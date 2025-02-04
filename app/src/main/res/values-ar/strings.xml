@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Todo app</string>
+    <string name="to_do_list">قائمة المهام</string>
+    <string name="tasks">المهام</string>
+    <string name="settings">الاعدادات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_new_task">اضافة مهمة جديدة</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="select_date">اختيار التاريخ</string>
+    <string name="select_time">اختيار الوقت</string>
+
+    <string name="language">اللغة</string>
+    <string name="english">الانجليزية</string>
+    <string name="mode">الوضع</string>
+    <string name="light">فاتح</string>
+
+
+</resources>

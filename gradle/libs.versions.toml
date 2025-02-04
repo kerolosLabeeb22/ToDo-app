@@ -15,6 +15,7 @@ roomRuntime = "2.6.1"
 roomRuntimeVersion = "2.5.0"
 swipelayout = "1.3.1"
 supportAnnotations = "28.0.0"
+calendat-view = "2.6.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,9 +30,9 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-material-calendarview = { module = "com.github.prolificinteractive:material-calendarview", version.ref = "materialCalendarview" }
 swipelayout = { module = "com.github.zerobranch:SwipeLayout", version.ref = "swipelayout" }
 support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+calender-view = { module = "com.kizitonwose.calendar:view", version.ref = "calendat-view" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

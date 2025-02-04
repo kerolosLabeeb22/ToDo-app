@@ -5,8 +5,7 @@
     android:id="@+id/toolbar"
     android:background="@color/primary"
     android:layout_width="match_parent"
-    app:theme="@style/ToolbarTheme"
-    android:layout_height="100dp"
+    android:layout_height="150dp"
     android:elevation="0dp">
 
     <TextView
@@ -17,7 +16,7 @@
         android:fontFamily="@font/poppins_regular"
         android:text="@string/to_do_list"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/onPrimary"
         android:textSize="22sp"
         android:layout_marginStart="52dp"
         />
