@@ -35,13 +35,11 @@ class TasksAdapter(
             binding.title.text = task.title
             binding.time.text = "${task.date}"
 
-
             binding.swipeLayout.setOnActionsListener(object : SwipeLayout.SwipeActionsListener {
                 override fun onOpen(direction: Int, isContinuous: Boolean) {
                     if (direction == SwipeLayout.RIGHT) {
                         binding.leftView.visibility = View.VISIBLE
                         deleteTask(position)
-                        
                     }
                 }
 
@@ -49,16 +47,21 @@ class TasksAdapter(
 
                 }
             })
-
-
         }
     }
 
-
     private fun deleteTask(position: Int) {
+
+        if (position < 0 || position >= taskList?.size ?: 0) return
+
         val task = taskList?.get(position) ?: return
         taskDao.deleteTask(task)
         taskList?.removeAt(position)
         notifyItemRemoved(position)
+
+
+        if (taskList?.isEmpty() == true) {
+            notifyDataSetChanged()
+        }
     }
 }

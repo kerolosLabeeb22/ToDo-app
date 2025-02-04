@@ -73,7 +73,7 @@
     android:layout_height="wrap_content"
     android:src="@drawable/add_ic"
     app:tint="@color/white"
-    android:backgroundTint="@color/primary"
+    android:backgroundTint="@color/secondary"
     app:layout_anchor="@id/btm_app_bar"
     app:shapeAppearanceOverlay="@style/fab_3_rounded"
     android:contentDescription="@string/add_new_task"
