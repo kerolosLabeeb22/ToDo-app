@@ -19,5 +19,8 @@
     <string name="mode">Mode</string>
     <string name="light">Clair</string>
     <string name="select_time">Sélectionner l\'heure</string>
+    <string name="edit_task">modifier la tâche</string>
+    <string name="save_changes">enregistrer les modifications</string>
+    <string name="done">faite!</string>
 
 </resources>

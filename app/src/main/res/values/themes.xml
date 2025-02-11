@@ -4,8 +4,13 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
 
-    <item name="colorPrimary">@color/blue</item>
-        <item name="colorSecondary">@color/blue</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:colorForeground">@color/onBackground</item>
+        <item name="android:statusBarColor">@color/primary</item>
     </style>
 
     <style name="fab_3_rounded">

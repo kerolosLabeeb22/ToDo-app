@@ -11,7 +11,7 @@ import java.util.Date
 data class Task(
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0, //
-    val title: String? = null,
+    var title: String? = null,
     val date: Date? = null,
     var isDone: Boolean? = false,
 ) {

@@ -5,7 +5,7 @@
 
     <item android:color="@color/grey" />
 
-    <item android:color="@color/blue" android:state_checked="true" />
+    <item android:color="@color/primary" android:state_checked="true" />
 
 
 

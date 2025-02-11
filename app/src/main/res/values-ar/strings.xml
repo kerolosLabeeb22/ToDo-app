@@ -17,6 +17,7 @@
     <string name="english">الانجليزية</string>
     <string name="mode">الوضع</string>
     <string name="light">فاتح</string>
-
-
+    <string name="edit_task">تعديل المهمة</string>
+    <string name="save_changes">حفظ التغيرات</string>
+    <string name="done">!تمت</string>
 </resources>

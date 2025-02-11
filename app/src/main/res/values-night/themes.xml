@@ -11,9 +11,9 @@
         <item name="colorOnPrimary">@color/onPrimary</item>
         <item name="colorSecondary">@color/secondary</item>
         <item name="colorOnSecondary">@color/onSecondary</item>
-        <item name="android:windowBackground">@color/background</item>
-        <item name="colorOnBackground">@color/onBackground</item>
-
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:colorForeground">@color/onBackground</item>
+        <item name="android:statusBarColor">@color/primary</item>
     </style>
 
     <style name="fab_3_rounded">
